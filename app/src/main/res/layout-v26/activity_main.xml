@@ -38,7 +38,7 @@
         android:textAlignment="center"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:autofillHints="" tools:targetApi="o"/>
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/ButtonPlay"

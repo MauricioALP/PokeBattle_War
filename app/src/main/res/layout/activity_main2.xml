@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="136dp"
         android:layout_marginTop="456dp"
-        android:text="Iniciar"
+        android:text="@string/iniciar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -23,7 +23,7 @@
         android:layout_marginStart="116dp"
         android:layout_marginTop="84dp"
         android:fontFamily="@font/bangers"
-        android:text="Pokemon"
+        android:text="@string/pokemon"
         android:textColor="#9B1212"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -37,7 +37,7 @@
         android:layout_marginStart="184dp"
         android:layout_marginTop="120dp"
         android:fontFamily="@font/bangers"
-        android:text="Inicial"
+        android:text="@string/inicial"
         android:textColor="#9B1212"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -51,7 +51,7 @@
         android:layout_marginStart="76dp"
         android:layout_marginTop="48dp"
         android:fontFamily="@font/bangers"
-        android:text="Escoger"
+        android:text="@string/escoger"
         android:textColor="#9B1212"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -65,10 +65,11 @@
         android:layout_marginStart="36dp"
         android:layout_marginTop="260dp"
         android:clickable="true"
-        android:text="Pikachu"
+        android:text="@string/pikachu"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:focusable="true" />
 
     <Button
         android:id="@+id/button5"
@@ -76,7 +77,7 @@
         android:layout_height="37dp"
         android:layout_marginStart="172dp"
         android:layout_marginTop="260dp"
-        android:text="Estadísticas"
+        android:text="@string/estad_sticas"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -86,7 +87,7 @@
         android:layout_height="37dp"
         android:layout_marginStart="172dp"
         android:layout_marginTop="368dp"
-        android:text="Estadísticas"
+        android:text="@string/estad_sticas"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -96,7 +97,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
         android:layout_marginTop="368dp"
-        android:text="Squirtle"
+        android:text="@string/squirtle"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -107,7 +108,7 @@
         android:layout_height="37dp"
         android:layout_marginStart="172dp"
         android:layout_marginTop="312dp"
-        android:text="Estadísticas"
+        android:text="@string/estad_sticas"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -117,7 +118,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
         android:layout_marginTop="312dp"
-        android:text="Charmander"
+        android:text="@string/charmander"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

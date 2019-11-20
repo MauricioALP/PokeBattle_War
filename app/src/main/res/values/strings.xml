@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">PokeBattleWar</string>
+    <string name="cfg">CFG</string>
+    <string name="help">help</string>
+    <string name="ingrese_su_nickname">Ingrese su nickname</string>
+    <string name="jugar">Jugar</string>
+    <string name="poke_battle_war">Poke Battle War</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="pokemon">Pokemon</string>
+    <string name="inicial">Inicial</string>
+    <string name="escoger">Escoger</string>
+    <string name="pikachu">Pikachu</string>
+    <string name="estad_sticas">Estadísticas</string>
+    <string name="squirtle">Squirtle</string>
+    <string name="charmander">Charmander</string>
+    <string name="atr_s">Atrás</string>
+    <string name="acerca_de_nosotros">Acerca de nosotros</string>
+    <string name="como_jugar">Cómo jugar</string>
+    <string name="faq">FAQ</string>
+    <string name="tel">Tel: 320 522 6942</string>
+    <string name="facebook">Facebook: PokeBattleWar</string>
+    <string name="instagram">Instagram: PokeBattle.War</string>
+    <string name="lorem1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</string>
+    <string name="lorem2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="pokedex">POKEDEX</string>
 </resources>

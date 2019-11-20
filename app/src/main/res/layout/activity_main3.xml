@@ -12,7 +12,7 @@
         android:layout_height="39dp"
         android:layout_marginStart="272dp"
         android:layout_marginTop="16dp"
-        android:text="Atrás"
+        android:text="@string/atr_s"
         android:textSize="12sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,7 +24,7 @@
         android:layout_marginStart="44dp"
         android:layout_marginTop="40dp"
         android:fontFamily="@font/bangers"
-        android:text="Acerca de nosotros"
+        android:text="@string/acerca_de_nosotros"
         android:textColor="#C6A81B1B"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -38,7 +38,7 @@
         android:layout_marginStart="44dp"
         android:layout_marginTop="188dp"
         android:fontFamily="@font/bangers"
-        android:text="Cómo jugar"
+        android:text="@string/como_jugar"
         android:textColor="#C6A81B1B"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -52,7 +52,7 @@
         android:layout_marginStart="44dp"
         android:layout_marginTop="368dp"
         android:fontFamily="@font/bangers"
-        android:text="FAQ"
+        android:text="@string/faq"
         android:textColor="#C6A81B1B"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -66,7 +66,7 @@
         android:layout_marginStart="44dp"
         android:layout_marginTop="92dp"
         android:fontFamily="@font/anton"
-        android:text="Tel: 320 522 6942"
+        android:text="@string/tel"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -78,7 +78,7 @@
         android:layout_marginStart="44dp"
         android:layout_marginTop="116dp"
         android:fontFamily="@font/anton"
-        android:text="Facebook: PokeBattleWar"
+        android:text="@string/facebook"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -89,7 +89,7 @@
         android:layout_marginStart="44dp"
         android:layout_marginTop="140dp"
         android:fontFamily="@font/anton"
-        android:text="Instagram: PokeBattle.War"
+        android:text="@string/instagram"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -100,7 +100,7 @@
         android:layout_marginStart="44dp"
         android:layout_marginTop="236dp"
         android:fontFamily="@font/anton"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+        android:text="@string/lorem1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -111,7 +111,7 @@
         android:layout_marginStart="44dp"
         android:layout_marginTop="412dp"
         android:fontFamily="@font/anton"
-        android:text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore."
+        android:text="@string/lorem2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
