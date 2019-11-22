@@ -3,7 +3,6 @@ package com.example.pokebattlewar
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_main3.*
 
 class Main3Activity : AppCompatActivity() {

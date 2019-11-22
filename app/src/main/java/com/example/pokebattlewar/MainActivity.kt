@@ -22,5 +22,11 @@ class MainActivity : AppCompatActivity() {
             val intent:Intent = Intent(this,Main3Activity::class.java)
             startActivity(intent)
         }
+
+        cfgbutton.setOnClickListener {
+
+            val intent:Intent = Intent(this,Main5Activity::class.java)
+            startActivity(intent)
+        }
     }
 }
