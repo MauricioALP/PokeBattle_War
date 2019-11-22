@@ -7,189 +7,257 @@
     tools:context=".escogetupokemon">
 
     <Button
-        android:id="@+id/button25"
+        android:id="@+id/pokemon11"
+        android:layout_width="93dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="535dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="93dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="@+id/fondo"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:layout_constraintTop_toTopOf="@+id/fondo" />
+
+    <Button
+        android:id="@+id/pokemon12"
+        android:layout_width="93dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="286dp"
+        android:layout_marginTop="535dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="93dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="@+id/fondo"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:layout_constraintTop_toTopOf="@+id/fondo" />
+
+    <Button
+        android:id="@+id/pokemon9"
+        android:layout_width="93dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="210dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="@+id/fondo"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:layout_constraintTop_toTopOf="@+id/oponente" />
+
+    <Button
+        android:id="@+id/aleatorio"
         android:layout_width="162dp"
         android:layout_height="42dp"
+        android:layout_marginTop="322dp"
+        android:layout_marginEnd="236dp"
         android:text="Aleatorio"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="869dp" />
+        app:layout_constraintBottom_toTopOf="@+id/oponente"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fondo" />
 
     <Button
-        android:id="@+id/button22"
+        android:id="@+id/pokemon5"
         android:layout_width="93dp"
         android:layout_height="99dp"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="198dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="430dp"
         android:text="Button"
-        tools:layout_editor_absoluteX="185dp"
-        tools:layout_editor_absoluteY="741dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/fondo"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:layout_constraintTop_toTopOf="@+id/fondo" />
 
     <Button
-        android:id="@+id/button23"
+        android:id="@+id/pokemon6"
         android:layout_width="93dp"
         android:layout_height="99dp"
+        android:layout_marginStart="286dp"
+        android:layout_marginTop="198dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="430dp"
         android:text="Button"
-        tools:layout_editor_absoluteX="320dp"
-        tools:layout_editor_absoluteY="741dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/fondo"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:layout_constraintTop_toTopOf="@+id/fondo" />
 
     <Button
-        android:id="@+id/button24"
+        android:id="@+id/pokemon4"
         android:layout_width="93dp"
         android:layout_height="99dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="198dp"
+        android:layout_marginEnd="300dp"
+        android:layout_marginBottom="430dp"
         android:text="Button"
-        tools:layout_editor_absoluteX="454dp"
-        tools:layout_editor_absoluteY="741dp" />
-
-    <Button
-        android:id="@+id/button19"
-        android:layout_width="93dp"
-        android:layout_height="99dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="320dp"
-        tools:layout_editor_absoluteY="612dp" />
-
-    <Button
-        android:id="@+id/button20"
-        android:layout_width="93dp"
-        android:layout_height="99dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="454dp"
-        tools:layout_editor_absoluteY="612dp" />
-
-    <Button
-        android:id="@+id/button18"
-        android:layout_width="93dp"
-        android:layout_height="99dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="185dp"
-        tools:layout_editor_absoluteY="612dp" />
-
-    <Button
-        android:id="@+id/button16"
-        android:layout_width="162dp"
-        android:layout_height="42dp"
-        android:text="Aleatorio"
-        android:textSize="20sp"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="435dp" />
-
-    <Button
-        android:id="@+id/button15"
-        android:layout_width="93dp"
-        android:layout_height="99dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="454dp"
-        tools:layout_editor_absoluteY="315dp" />
-
-    <Button
-        android:id="@+id/button13"
-        android:layout_width="93dp"
-        android:layout_height="99dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="185dp"
-        tools:layout_editor_absoluteY="315dp" />
-
-    <Button
-        android:id="@+id/button14"
-        android:layout_width="93dp"
-        android:layout_height="99dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="320dp"
-        tools:layout_editor_absoluteY="315dp" />
-
-    <Button
-        android:id="@+id/button12"
-        android:layout_width="93dp"
-        android:layout_height="99dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="315dp" />
-
-    <Button
-        android:id="@+id/button11"
-        android:layout_width="93dp"
-        android:layout_height="99dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="447dp"
-        tools:layout_editor_absoluteY="181dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/fondo"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:layout_constraintTop_toTopOf="@+id/fondo" />
 
     <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="673dp"
-        android:layout_height="1031dp"
-        app:srcCompat="@color/colorAccent"
-        tools:layout_editor_absoluteX="-7dp"
-        tools:layout_editor_absoluteY="0dp" />
+        android:id="@+id/fondo"
+        android:layout_width="414dp"
+        android:layout_height="727dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/colorAccent" />
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="511dp"
-        android:layout_height="99dp"
-        android:text="Escoge tu Pokémon:"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="#F5E5E0"
-        android:textSize="55sp"
-        android:typeface="normal"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="39dp" />
-
-    <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/oponente"
         android:layout_width="283dp"
         android:layout_height="87dp"
-        android:text="Oponente:"
-        android:textColor="#F5E5E0"
-        android:textSize="60sp"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="493dp" />
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="349dp"
+        android:layout_marginEnd="66dp"
+        android:text="  Oponente:"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:layout_constraintTop_toTopOf="@+id/fondo" />
 
     <Button
-        android:id="@+id/button7"
-        android:layout_width="220dp"
-        android:layout_height="75dp"
-        android:text="Iniciar batalla"
-        android:textSize="24sp"
-        android:visibility="visible"
-        tools:layout_editor_absoluteX="286dp"
-        tools:layout_editor_absoluteY="920dp" />
-
-    <Button
-        android:id="@+id/button8"
+        android:id="@+id/pokemon7"
         android:layout_width="93dp"
         android:layout_height="99dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="301dp"
+        android:layout_marginBottom="208dp"
         android:text="Button"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="181dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/fondo"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:layout_constraintTop_toTopOf="@+id/oponente" />
 
     <Button
-        android:id="@+id/button17"
+        android:id="@+id/pokemon8"
         android:layout_width="93dp"
         android:layout_height="99dp"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="206dp"
         android:text="Button"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="612dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/fondo"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:layout_constraintTop_toTopOf="@+id/oponente" />
 
     <Button
-        android:id="@+id/button21"
+        android:id="@+id/pokemon10"
         android:layout_width="93dp"
         android:layout_height="99dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="535dp"
+        android:layout_marginEnd="300dp"
+        android:layout_marginBottom="93dp"
         android:text="Button"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="741dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/fondo"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:layout_constraintTop_toTopOf="@+id/fondo" />
 
     <Button
-        android:id="@+id/button9"
-        android:layout_width="93dp"
-        android:layout_height="99dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="185dp"
-        tools:layout_editor_absoluteY="181dp" />
+        android:id="@+id/alea"
+        android:layout_width="151dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="645dp"
+        android:layout_marginEnd="243dp"
+        android:layout_marginBottom="25dp"
+        android:text="Aleatorio"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:layout_constraintTop_toTopOf="@+id/fondo" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/pokemon2"
         android:layout_width="93dp"
         android:layout_height="99dp"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="548dp"
         android:text="Button"
-        tools:layout_editor_absoluteX="320dp"
-        tools:layout_editor_absoluteY="181dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/fondo"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:layout_constraintTop_toTopOf="@+id/fondo" />
+
+    <Button
+        android:id="@+id/pokemon1"
+        android:layout_width="93dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="302dp"
+        android:layout_marginBottom="548dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="@+id/fondo"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:layout_constraintTop_toTopOf="@+id/fondo"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/pokemon3"
+        android:layout_width="93dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="286dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="548dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="@+id/fondo"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:layout_constraintTop_toTopOf="@+id/fondo" />
+
+    <TextView
+        android:id="@+id/escogetupokemon"
+        android:layout_width="387dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="680dp"
+        android:text="Escoge tu Pokémon:"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="@+id/fondo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/fondo"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:layout_constraintTop_toTopOf="@+id/fondo"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/Iniciar batalla"
+        android:layout_width="193dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginEnd="29dp"
+        android:text="iniciarbatlla"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:layout_constraintTop_toTopOf="@+id/fondo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
