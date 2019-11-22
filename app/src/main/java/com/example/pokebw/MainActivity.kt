@@ -1,4 +1,4 @@
-package com.example.pokebattlewar
+package com.example.pokebw
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

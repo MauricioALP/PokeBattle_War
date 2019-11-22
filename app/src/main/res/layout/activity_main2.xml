@@ -16,13 +16,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
+w    <TextView
         android:id="@+id/textView3"
         android:layout_width="114dp"
         android:layout_height="40dp"
         android:layout_marginStart="116dp"
         android:layout_marginTop="84dp"
-        android:fontFamily="@font/bangers"
+        android:fontFamily="sans-serif"
         android:text="@string/pokemon"
         android:textColor="#9B1212"
         android:textSize="30sp"
@@ -36,7 +36,7 @@
         android:layout_height="44dp"
         android:layout_marginStart="184dp"
         android:layout_marginTop="120dp"
-        android:fontFamily="@font/bangers"
+        android:fontFamily="sans-serif"
         android:text="@string/inicial"
         android:textColor="#9B1212"
         android:textSize="30sp"
@@ -50,7 +50,7 @@
         android:layout_height="42dp"
         android:layout_marginStart="76dp"
         android:layout_marginTop="48dp"
-        android:fontFamily="@font/bangers"
+        android:fontFamily="sans-serif"
         android:text="@string/escoger"
         android:textColor="#9B1212"
         android:textSize="30sp"

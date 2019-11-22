@@ -1,4 +1,4 @@
-package com.example.pokebattlewar
+package com.example.pokebw
 
 import org.junit.Test
 

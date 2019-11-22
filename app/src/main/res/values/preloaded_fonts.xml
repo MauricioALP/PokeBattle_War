@@ -2,7 +2,5 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/anton</item>
-        <item>@font/bangers</item>
-        <item>@font/londrina_shadow</item>
     </array>
 </resources>
