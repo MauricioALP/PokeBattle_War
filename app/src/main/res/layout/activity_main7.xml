@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main7Activity">
+
+    <Button
+        android:id="@+id/modohistoria"
+        android:layout_width="285dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="435dp"
+        android:backgroundTint="#FF1300"
+        android:text="MODO HISTORIA"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/fondo"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:layout_constraintTop_toTopOf="@+id/fondo" />
+
+    <Button
+        android:id="@+id/modoversus"
+        android:layout_width="282dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="358dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="296dp"
+        android:backgroundTint="#FF1300"
+        android:text="MODO VERSUS"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/fondo"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:layout_constraintTop_toTopOf="@+id/fondo" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="272dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="495dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="163dp"
+        android:background="#FF1300"
+        android:text="CONFIGURACION"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/fondo"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:layout_constraintTop_toTopOf="@+id/fondo" />
+
+    <ImageView
+        android:id="@+id/fondo"
+        android:layout_width="433dp"
+        android:layout_height="731dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="273dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginBottom="624dp"
+        android:text="MERCURASE"
+        android:textAlignment="center"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="@+id/fondo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:layout_constraintTop_toTopOf="@+id/fondo" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="68dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="337dp"
+        android:layout_marginTop="667dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="@+id/button5"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:layout_constraintTop_toTopOf="@+id/fondo"
+        app:srcCompat="@android:drawable/ic_lock_power_off" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="88dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginTop="644dp"
+        android:layout_marginEnd="28dp"
+        android:textColorHighlight="#680000"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:layout_constraintTop_toTopOf="@+id/fondo" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="113dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="294dp"
+        android:layout_marginBottom="606dp"
+        app:layout_constraintBottom_toBottomOf="@+id/fondo"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:layout_constraintTop_toTopOf="@+id/fondo"
+        tools:srcCompat="@tools:sample/avatars" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

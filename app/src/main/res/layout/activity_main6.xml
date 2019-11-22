@@ -4,82 +4,60 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="285dp"
-        android:layout_height="75dp"
-        android:backgroundTint="#FF1300"
-        android:text="MODO HISTORIA"
-        android:textAllCaps="false"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textSize="30sp"
-        tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="220dp" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="282dp"
-        android:layout_height="77dp"
-        android:backgroundTint="#FF1300"
-        android:text="MODO VERSUS"
-        android:textSize="30sp"
-        tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="358dp" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="272dp"
-        android:layout_height="73dp"
-        android:background="#FF1300"
-        android:text="CONFIGURACION"
-        android:textSize="30sp"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="495dp" />
+    tools:context=".Main6Activity">
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="433dp"
-        android:layout_height="731dp"
-        app:srcCompat="@color/colorAccent"
-        tools:layout_editor_absoluteX="-11dp"
-        tools:layout_editor_absoluteY="0dp" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="273dp"
-        android:layout_height="64dp"
-        android:text="MERCURASE"
-        android:textAlignment="center"
-        android:textSize="45sp"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="43dp" />
+        android:id="@+id/imageView"
+        android:layout_width="414dp"
+        android:layout_height="736dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/colorAccent" />
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="68dp"
-        android:layout_height="57dp"
-        android:layout_marginStart="8dp"
-        app:layout_constraintStart_toStartOf="@+id/button5"
-        app:srcCompat="@android:drawable/ic_lock_power_off"
-        tools:layout_editor_absoluteY="653dp" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="88dp"
-        android:layout_height="71dp"
-        android:textColorHighlight="#680000"
-        android:visibility="invisible"
-        tools:layout_editor_absoluteX="307dp"
-        tools:layout_editor_absoluteY="653dp" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="113dp"
-        android:layout_height="109dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp"
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="256dp"
+        android:layout_marginBottom="580dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0"
         tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="572dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="156dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="653dp"
+        android:layout_marginEnd="235dp"
+        android:text="Continuar"
+        android:textColor="#000000"
+        android:textColorHighlight="#00C22929"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

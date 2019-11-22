@@ -7,7 +7,7 @@
     tools:context=".Main2Activity">
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/iniciar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="136dp"
