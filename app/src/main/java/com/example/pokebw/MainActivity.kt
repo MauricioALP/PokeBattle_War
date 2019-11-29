@@ -5,7 +5,11 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity() {
+open class MainActivity : AppCompatActivity() {
+
+    companion object {
+        var nickname:String?=null
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -15,6 +19,8 @@ class MainActivity : AppCompatActivity() {
 
             val intent:Intent = Intent(this,Main2Activity::class.java)
             startActivity(intent)
+
+            nickname=getinput.text.toString()
         }
 
         ButtonHelp.setOnClickListener {
@@ -28,5 +34,10 @@ class MainActivity : AppCompatActivity() {
             val intent:Intent = Intent(this,Main5Activity::class.java)
             startActivity(intent)
         }
+
+    }
+
+    fun getnickaname():String{
+        return nickname.toString()
     }
 }

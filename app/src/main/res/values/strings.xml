@@ -24,4 +24,6 @@
     <string name="lorem2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</string>
     <string name="ajustes">Ajustes</string>
     <string name="pokedex">POKEDEX</string>
+    <string name="nickname"></string>
+
 </resources>

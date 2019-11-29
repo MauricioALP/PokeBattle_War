@@ -5,7 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main7.*
 
-class Main7Activity : AppCompatActivity() {
+class Main7Activity : AppCompatActivity(){
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,6 +22,8 @@ class Main7Activity : AppCompatActivity() {
             val intent: Intent = Intent(this,Main8Activity::class.java)
             startActivity(intent)
         }
+
+        nicknamehome.text=MainActivity().getnickaname()
     }
 
 }

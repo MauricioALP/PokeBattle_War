@@ -68,7 +68,7 @@
         app:srcCompat="@color/colorAccent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/nicknamehome"
         android:layout_width="273dp"
         android:layout_height="64dp"
         android:layout_marginStart="146dp"
