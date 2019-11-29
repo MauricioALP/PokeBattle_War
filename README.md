@@ -32,3 +32,6 @@
 > * EL juego debe con un manual, y/o  tutorial, para familiarizar al jugador con este.
 
 > * El juego debe contar con alguna información de contacto donde los jugadores puedan comunicarse en caso de tener alguna      inquietud (FAQ).
+
+### 3.Documentación
+>* https://docs.google.com/document/d/1YdgG-EWNf6c0s8mBnpkM2kqZxqD95gdSfD4bLq19BkQ/edit?usp=sharing
