@@ -37,4 +37,4 @@
 >* https://docs.google.com/document/d/1YdgG-EWNf6c0s8mBnpkM2kqZxqD95gdSfD4bLq19BkQ/edit?usp=sharing
 
 ### 4. Informe 
->* https://docs.google.com/document/d/1a1VQkqYDmVVP06AECnWsE70IEUtrG08J79nB7xz6tbc/edit
+>* https://docs.google.com/document/d/1a1VQkqYDmVVP06AECnWsE70IEUtrG08J79nB7xz6tbc/edit?usp=sharing
